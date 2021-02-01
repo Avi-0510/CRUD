@@ -11,5 +11,5 @@ export class UpdateEmployeeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
 }

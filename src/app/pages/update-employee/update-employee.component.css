@@ -1,0 +1,81 @@
+.text-con:hover {
+    background: linear-gradient(to left, #9c27b0,#8ecdff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.text-con{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+label{
+  color: white;
+}
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 160px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+ 
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.leftone:hover{
+   transform: translateY(-7px);
+}
+.button1:hover {
+  background-color: #f34343;
+  box-shadow: 0px 15px 20px rgba(240, 16, 16, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.button1 {
+  width: 160px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  }

@@ -1,0 +1,114 @@
+.body-container{
+    margin-bottom: 3rem;
+    width: 70%;
+    float: right;
+}
+
+.gender-con{
+    padding: 5px;
+}
+label{
+    color: white;
+}
+.text-con{
+    width: 30%;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 5rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: left;
+}
+.inside-text{
+    text-align: right;
+}
+
+h1:hover {
+    background: linear-gradient(to left, #9c27b0,#8ecdff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h2:hover {
+    background: linear-gradient(to right, #9c27b0,#8ecdff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+ 
+  
+  .btn{
+      box-sizing: border-box;
+      position: relative;
+  }
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+    
+  }
+  
+  .button {
+    width: 160px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    }
+  
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .button1:hover {
+    background-color: #f34343;
+    box-shadow: 0px 15px 20px rgba(240, 16, 16, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .button1 {
+    width: 160px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    }
+    img:hover{
+       border-radius: 50%;
+        box-shadow: 0px 15px 20px rgba(199, 50, 245, 0.466);
+        
+        transform: translateY(-7px);
+    }
