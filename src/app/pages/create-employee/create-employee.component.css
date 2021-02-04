@@ -7,9 +7,7 @@
 .gender-con{
     padding: 5px;
 }
-label{
-    color: white;
-}
+
 .text-con{
     width: 30%;
     float: left;
@@ -23,6 +21,9 @@ label{
 .inside-text{
     text-align: right;
 }
+/* .bor{
+  border: 2px solid red !important;
+} */
 
 h1:hover {
     background: linear-gradient(to left, #9c27b0,#8ecdff);
@@ -143,3 +144,6 @@ h1:hover {
       left: 29rem;
       
       }
+      input.ng-invalid{border-left:5px solid red;} 
+      input.ng-valid{border-left:5px solid green;}
+      input.ng-untouched{border-left: none;}

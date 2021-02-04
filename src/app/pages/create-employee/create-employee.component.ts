@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
+import {FormGroup,FormControl ,Validator} from '@angular/forms'
 import { Component, OnInit } from '@angular/core';
-import { UserServiceService} from 'src/app/user-service.service'
+import { UserServiceService} from 'src/app/user-service.service';
+import {StateList} from './statelist';
 
 @Component({
   selector: 'app-create-employee',
@@ -24,12 +26,26 @@ export class CreateEmployeeComponent implements OnInit {
       id: ""
       
   }
+  stateList :StateList[]= [
+   {id:1,name:"Andhra Pradesh"} ,
+   {id:2,name:"Arunachal Pradesh"},
+   {id:3,name:"Assam"},
+   {id:4	,name:"Bihar"},
+   {id:5	,name:"Chhattisgarh"},{id:6,	name:"Goa"},
+   {id:7	,name:"Gujarat"}, {id:8,name:"Haryana"	},{id:9,name:	"Himachal Pradesh"},{id:10	,name:"Jharkhand"},{id:11,name:	"Karnataka"},{id:12,name:	"Kerala"},{id:13,name:	"Madhya Pradesh"},
+  {id:14,name:	"Maharashtra"},{id:15,name	:"Manipur"},{id:16,name:	"Meghalaya"},{id:17,name:	"Mizoram"},{id:18,name:	"Nagaland"},
+  {id:19,name:	"Odisha"}, {id:20	,name:"Punjab"},{id:21,name:	"Rajasthan"},{id:22,name	:"Sikkim"},{id:23,name:	"Tamil Nadu"},{id:24	,name:"Telangana"},{id:25,name:	"Tripura"},
+   {id:26	,name:"Uttar Pradesh"},{id:27,name:	"Uttarakhand"},{id:28,name:	"West Bengal"}
+  ];
   showList: boolean;
+  count: number;
 
+  
   constructor(private _userService:UserServiceService,_httpClient:HttpClient) { }
 
   ngOnInit(): void {
     this.getLatestUser();
+    
   }
   getFormData(objForm){
     console.log(objForm);
@@ -64,5 +80,12 @@ export class CreateEmployeeComponent implements OnInit {
   toggleList(){
     this.showList = !this.showList;
   }
-
+  getLatestUserCount(){
+    this._userService.getAllUser().subscribe((response => {
+      this.allUser = response;
+      this.count = this.allUser.length;
+       console.log(this.count );
+    }))
+  }
+  
 }

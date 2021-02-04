@@ -1,17 +1,56 @@
 {
   "users": [
     {
-      "fname": "ghjfg",
-      "lname": "sdasdasd",
-      "inlineRadioOptions": "female",
-      "Designation": "jhgjg",
-      "email": "jhgj",
-      "mnumber": 567576,
-      "address": "fghfghfg",
-      "city": "cvbcx",
+      "fname": "Arpanii ",
+      "lname": "Kumar",
+      "inlineRadioOptions": "male",
+      "Designation": "SD",
+      "email": "arpan.kumar@interbizconsulting.com",
+      "mnumber": 7903525126,
+      "address": "avanti vihardfdfds",
+      "city": "Raipur",
+      "state": "Manipur",
+      "zip": "464646",
+      "id": 3
+    },
+    {
+      "fname": "Arpan",
+      "lname": "Kumar",
+      "inlineRadioOptions": "male",
+      "Designation": "SD",
+      "email": "arpan.kumar@interbizconsulting.com",
+      "mnumber": 7903525126,
+      "address": "avanti vihar",
+      "city": "Raipur",
       "state": "MP",
-      "zip": "453546",
-      "id": 2
+      "zip": "464646",
+      "id": 4
+    },
+    {
+      "fname": "gdf",
+      "lname": "ewr",
+      "inlineRadioOptions": "male",
+      "Designation": "dfgdf",
+      "email": "sdfgds",
+      "mnumber": 3543534542,
+      "address": "fsdf",
+      "city": "rew",
+      "state": "Manipur",
+      "zip": 234343,
+      "id": 5
+    },
+    {
+      "fname": "ere",
+      "lname": "erf",
+      "inlineRadioOptions": "male",
+      "Designation": "erf",
+      "email": "erfe",
+      "mnumber": 4335435464,
+      "address": "ewrew",
+      "city": "fsdfg",
+      "state": "Odisha",
+      "zip": 453454,
+      "id": 6
     }
   ]
 }
