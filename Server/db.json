@@ -7,24 +7,11 @@
       "Designation": "SD",
       "email": "arpan.kumar@interbizconsulting.com",
       "mnumber": 7903525126,
-      "address": "avanti vihardfdfds",
+      "address": "avanti vihar",
       "city": "Raipur",
       "state": "Manipur",
       "zip": "464646",
       "id": 3
-    },
-    {
-      "fname": "Arpan",
-      "lname": "Kumar",
-      "inlineRadioOptions": "male",
-      "Designation": "SD",
-      "email": "arpan.kumar@interbizconsulting.com",
-      "mnumber": 7903525126,
-      "address": "avanti vihar",
-      "city": "Raipur",
-      "state": "MP",
-      "zip": "464646",
-      "id": 4
     },
     {
       "fname": "gdf",
@@ -51,6 +38,58 @@
       "state": "Odisha",
       "zip": 453454,
       "id": 6
+    },
+    {
+      "fname": "Arpan",
+      "lname": "Vishwakarma",
+      "inlineRadioOptions": "male",
+      "Designation": "Software Engineer",
+      "email": "arpan.kumar@interbizconsulting.com",
+      "mnumber": 7903525126,
+      "address": "avanti vihar",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "zip": 464646,
+      "id": 7
+    },
+    {
+      "fname": "Arpita",
+      "lname": "",
+      "inlineRadioOptions": "female",
+      "Designation": "dfdf",
+      "email": "sfdsfds@gmail.com",
+      "mnumber": 4654657678,
+      "address": "yhftghgcbv",
+      "city": "fgdfgdfd",
+      "state": "Nagaland",
+      "zip": 342333,
+      "id": 8
+    },
+    {
+      "fname": "Saurav",
+      "lname": "Arya",
+      "inlineRadioOptions": "male",
+      "Designation": "Tester",
+      "email": "saurav@gmail.com",
+      "mnumber": 3435465776,
+      "address": "sadasdjsbjd",
+      "city": "asdasdfs",
+      "state": "Madhya Pradesh",
+      "zip": 454545,
+      "id": 9
+    },
+    {
+      "fname": "Tanya",
+      "lname": "Agrawal",
+      "inlineRadioOptions": "female",
+      "Designation": "sdfnsd",
+      "email": "sfcsd@dbhgf",
+      "mnumber": 4353454656,
+      "address": "dfvgdsgvd",
+      "city": "dfgvdfg",
+      "state": "Jharkhand",
+      "zip": 324234,
+      "id": 10
     }
   ]
 }
